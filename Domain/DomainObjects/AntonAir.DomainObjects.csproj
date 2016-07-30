@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SearchCriteria\FlightSearchCriteria.cs" />
+    <Compile Include="ViewModel\CityViewModel.cs" />
     <Compile Include="ViewModel\FlightViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

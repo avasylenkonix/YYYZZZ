@@ -27,9 +27,17 @@ namespace AntonAir.Controllers
 		[SwaggerOperation("Search")]
 		[SwaggerResponse(HttpStatusCode.OK)]
 		[SwaggerResponse(HttpStatusCode.NotFound)]
-		public HttpResponseMessage Get([FromUri] string fromCityId, [FromUri] string toCityId, [FromUri] DateTime? departureDateTime, [FromUri] int ticketsAmount = 1)
+		public HttpResponseMessage Get([FromUri] Guid fromCityId, [FromUri] Guid toCityId, [FromUri] DateTime? departureDateTime, [FromUri] int ticketsAmount = 1)
 		{
-			var result = searchService.Get(new FlightSearchCriteria());
+			var search = new FlightSearchCriteria
+				             {
+					             FromCityId = fromCityId,
+					             ToCityId = toCityId,
+					             Date = departureDateTime,
+					             Amount = ticketsAmount
+				             };
+
+			var result = searchService.Get(search);
 
 			return Request.CreateResponse(HttpStatusCode.Accepted, result);
 		}
