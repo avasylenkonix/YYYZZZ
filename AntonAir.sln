@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir", "AntonAir\AntonAir.csproj", "{FFF3DD6B-9520-47BE-8507-E78E8E266906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.UnitTests", "AntonAir.UnitTests\AntonAir.UnitTests.csproj", "{30A53F92-E340-4201-A6D9-0D339DDB556D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{04828147-8854-4E9E-9877-B6368935C05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.DomainObjects", "Domain\DomainObjects\AntonAir.DomainObjects.csproj", "{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E84B22A4-D472-4C58-92E0-48C25C4ECD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.Data", "Data\AntonAir.Data\AntonAir.Data.csproj", "{E987754E-5328-4651-9580-8C7E75D6842B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.DataAccess", "Data\AntonAir.DataAccess\AntonAir.DataAccess.csproj", "{B905327C-429D-47DD-81BE-21FD900AFC6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5AD13965-46C4-447B-83AB-3AD12BA3F943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.CQRS.Infrastructure.Read", "Infrastructure\AntonAir.CQRS.Infrastructure.Read\AntonAir.CQRS.Infrastructure.Read.csproj", "{64C526BC-C54A-44C1-8010-F8B998D90D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.CQRS.Infrastructure.Write", "Infrastructure\AntonAir.CQRS.Infrastructure.Write\AntonAir.CQRS.Infrastructure.Write.csproj", "{F65545C1-9A48-43B8-B87E-690EDE0BA09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntonAir.Domain", "AntonAir.Domain\AntonAir.Domain.csproj", "{A8F2F26A-2319-40F8-AD87-18CD71C6D24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntoAir.IoC", "AntoAir.IoC\AntoAir.IoC.csproj", "{901A7942-3F3B-4BE3-81F9-7A890B8E65FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFF3DD6B-9520-47BE-8507-E78E8E266906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF3DD6B-9520-47BE-8507-E78E8E266906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF3DD6B-9520-47BE-8507-E78E8E266906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF3DD6B-9520-47BE-8507-E78E8E266906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A53F92-E340-4201-A6D9-0D339DDB556D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A53F92-E340-4201-A6D9-0D339DDB556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A53F92-E340-4201-A6D9-0D339DDB556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A53F92-E340-4201-A6D9-0D339DDB556D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E987754E-5328-4651-9580-8C7E75D6842B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E987754E-5328-4651-9580-8C7E75D6842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E987754E-5328-4651-9580-8C7E75D6842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E987754E-5328-4651-9580-8C7E75D6842B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B905327C-429D-47DD-81BE-21FD900AFC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B905327C-429D-47DD-81BE-21FD900AFC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B905327C-429D-47DD-81BE-21FD900AFC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B905327C-429D-47DD-81BE-21FD900AFC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C526BC-C54A-44C1-8010-F8B998D90D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C526BC-C54A-44C1-8010-F8B998D90D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C526BC-C54A-44C1-8010-F8B998D90D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C526BC-C54A-44C1-8010-F8B998D90D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65545C1-9A48-43B8-B87E-690EDE0BA09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65545C1-9A48-43B8-B87E-690EDE0BA09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65545C1-9A48-43B8-B87E-690EDE0BA09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65545C1-9A48-43B8-B87E-690EDE0BA09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F2F26A-2319-40F8-AD87-18CD71C6D24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F2F26A-2319-40F8-AD87-18CD71C6D24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F2F26A-2319-40F8-AD87-18CD71C6D24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F2F26A-2319-40F8-AD87-18CD71C6D24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901A7942-3F3B-4BE3-81F9-7A890B8E65FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901A7942-3F3B-4BE3-81F9-7A890B8E65FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901A7942-3F3B-4BE3-81F9-7A890B8E65FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901A7942-3F3B-4BE3-81F9-7A890B8E65FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BCDD8EE-11CF-4627-B8D4-6C17EFBC93C4} = {04828147-8854-4E9E-9877-B6368935C05A}
+		{E987754E-5328-4651-9580-8C7E75D6842B} = {E84B22A4-D472-4C58-92E0-48C25C4ECD7A}
+		{B905327C-429D-47DD-81BE-21FD900AFC6B} = {E84B22A4-D472-4C58-92E0-48C25C4ECD7A}
+		{64C526BC-C54A-44C1-8010-F8B998D90D09} = {5AD13965-46C4-447B-83AB-3AD12BA3F943}
+		{F65545C1-9A48-43B8-B87E-690EDE0BA09D} = {5AD13965-46C4-447B-83AB-3AD12BA3F943}
+		{A8F2F26A-2319-40F8-AD87-18CD71C6D24A} = {04828147-8854-4E9E-9877-B6368935C05A}
+	EndGlobalSection
+EndGlobal
